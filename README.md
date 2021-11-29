@@ -60,3 +60,7 @@ $ docker run -d -it -p 1883:1883 -v $(pwd)/mosquitto.conf:/mosquitto/config/mosq
 $ cd gRPC
 $ python3 log.py
 ```
+
+### demo
+
+https://youtu.be/RF79VCV46DM
