@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service log {
+    rpc Query(LogRequest) returns (LogResponse);
+}
+
+message LogRequest {
+    
+}
+
+message LogResponse {
+    string value = 1;
+}
