@@ -2,7 +2,7 @@ import os
 import os.path as osp
 import sys
 
-BUILD_DIR = osp.join(osp.dirname(osp.abspath(__file__)), "../../../gRPC/build/service/")
+BUILD_DIR = osp.join(osp.dirname(osp.abspath(__file__)), "../../gRPC/build/service/")
 print(BUILD_DIR)
 sys.path.insert(0, BUILD_DIR)
 import argparse
